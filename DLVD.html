@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DVLD Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col bg-gray-50">
+  <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-12 text-center shadow-lg">
+    <h5 class="text-4xl md:text-5xl font-extrabold mb-2">Driving & Vehicle License Department (DVLD)</h5>
+    <p class="text-lg md:text-xl font-light">Windows Forms Desktop Application</p>
+  </header>
+
+  <main class="flex-grow container mx-auto px-6 py-12">
+      <section class="mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-2 flex items-center space-x-3">
+        <span>📌 Project Overview</span>
+        <a href="https://github.com/Taha-3laa/DVLD-Project" target="_blank" class="text-gray-500 text-base font-normal hover:text-gray-700 transition-colors">🔗GithubRepo</a>
+        </h2>
+        <p class="text-gray-700 leading-relaxed mt-2">
+        The <strong>DVLD</strong> project is a complete Windows Forms system for managing driving licenses and vehicles.
+        It covers the entire lifecycle of driver licensing: issuing, renewing, replacing, suspending, and managing related services.
+        </p>
+      </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-2">📋 Requirements Implemented</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Issuing new driving licenses with category-based rules.</li>
+        <li>License renewal, replacement (lost/damaged).</li>
+        <li>Managing driver personal details (ID, info, photo).</li>
+        <li>International license issuance with eligibility rules.</li>
+        <li>License suspension and release after fines.</li>
+        <li>Multiple license categories supported (motorcycles, cars, taxis, buses, trucks, etc.).</li>
+        <li>Validation of minimum age and prevention of duplicate licenses.</li>
+        <li>User management with roles and permissions.</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-2">✨ Features I Implemented</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>CRUD for Persons, Licenses, and Requests.</li>
+        <li>Validation for age and duplicate licenses.</li>
+        <li>Support for multiple license classes per driver.</li>
+        <li>Medical, theoretical, and practical test tracking.</li>
+        <li>Automatic license number and expiry generation.</li>
+        <li>Search & filtering requests and licenses by status.</li>
+        <li>User management (add, edit, delete, freeze accounts, assign permissions).</li>
+        <li>Action logging with user and timestamp.</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Taha Alaa | DVLD Project</p>
+  </footer>
+</body>
+
+</html>

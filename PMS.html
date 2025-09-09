@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnloop Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            inter: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen flex flex-col bg-gray-50">
+  <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white py-12 text-center shadow-lg">
+    <h5 class="text-4xl md:text-5xl font-extrabold mb-2">Learnloop</h5>
+    <p class="text-lg md:text-xl font-light">Project Management System</p>
+  </header>
+
+  <main class="flex-grow container mx-auto px-6 py-12">
+      <section class="mb-12">
+        <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-2 flex items-center space-x-3">
+        <span>📌 Project Overview</span>
+        <a href="https://github.com/Abdallah-farag27/LearnLoop" target="_blank" class="text-gray-500 text-base font-normal hover:text-gray-700 transition-colors">🔗GithubRepo</a>
+        </h2>
+        <p class="text-gray-700 leading-relaxed mt-2">
+        <strong>Learnloop</strong> is a web-based project management system designed to streamline team collaboration, task tracking, and performance management. It provides a centralized platform for administrators to manage projects and users, while also empowering users to collaborate and track their assigned tasks.
+        </p>
+      </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-2">📋 Core Functions</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>Administrator can add, edit, and manage projects and users.</li>
+        <li>Administrators can create tasks, assign them to users, and track their status.</li>
+        <li>Comprehensive user profiles for both administrators and regular users.</li>
+        <li>Users can collaborate on tasks by adding comments and engaging in discussions.</li>
+        <li>File and image uploads for tasks and projects.</li>
+        <li>Admin can review completed tasks and provide ratings and comments on user work.</li>
+        <li>User performance reviews are displayed on their profile.</li>
+      </ul>
+    </section>
+
+    <section class="mb-12">
+      <h2 class="text-3xl font-bold text-gray-800 mb-4 border-b pb-2">✨ Implemented Features</h2>
+      <ul class="list-disc list-inside text-gray-700 space-y-2">
+        <li>CRUD operations for projects, users, and tasks.</li>
+        <li>Real-time or near-real-time communication with commenting functionality.</li>
+        <li>User authentication and authorization based on roles (Admin vs. User).</li>
+        <li>Dynamic file and image uploading & downloading with secure storage.</li>
+        <li>Performance review system with ratings and text-based feedback.</li>
+        <li>Profile management for users, including picture uploads.</li>
+        <li>Centralized dashboard for tracking project and task status.</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Taha Alaa | Learnloop Project</p>
+  </footer>
+</body>
+
+</html>
